@@ -10,16 +10,16 @@ baseurl: ""
 # Author information
 author:
   name: "Jen Hofmann"
-  email: "your.email@university.edu"
-  bio: "Senior ML Scientist | Genentech"
+  email: "hofmann.jen@gene.com"
+  bio: "Senior ML Scientist | Prescient Design | Genentech"
 
 # Social links (update with your profiles)
 social:
-  github: "yourusername"
-  scholar: "YOUR_GOOGLE_SCHOLAR_ID"
+  github: "github.com/hofmannjl"
+  scholar: "scholar.google.com/citations?user=pnBYPj4AAAAJ"
   linkedin: "yourprofile"
-  twitter: "yourusername"
-  orcid: "0000-0000-0000-0000"
+  bluesky: "@jenhofmann.bsky.social"
+  orcid: "0000-0003-2799-3172"
 
 # Build settings
 markdown: kramdown

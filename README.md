@@ -1,1 +1,1 @@
-# hofmannjl.github.io
+Personal website for Jennifer L. Hofmann

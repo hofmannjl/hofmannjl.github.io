@@ -1,0 +1,93 @@
+# GitHub Pages Configuration
+# This file configures Jekyll for GitHub Pages
+
+# Site settings
+title: "Jennifer L. Hofmann"
+description: "Personal website"
+url: "https://hofmannjl.github.io"
+baseurl: ""
+
+# Author information
+author:
+  name: "Jen Hofmann"
+  email: "your.email@university.edu"
+  bio: "Senior ML Scientist | Genentech"
+
+# Social links (update with your profiles)
+social:
+  github: "yourusername"
+  scholar: "YOUR_GOOGLE_SCHOLAR_ID"
+  linkedin: "yourprofile"
+  twitter: "yourusername"
+  orcid: "0000-0000-0000-0000"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Include files
+include:
+  - _pages
+  - data
+
+# SEO settings
+google_site_verification: # Add your Google verification code here
+google_analytics: # Add your Google Analytics tracking ID here
+
+# Academic settings
+scholar:
+  style: apa
+  bibliography: publications.bib
+  bibliography_template: bib
+
+# Collections (if you want to use Jekyll collections later)
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Default layouts for collections
+defaults:
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Markdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
